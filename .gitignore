@@ -1,0 +1,22 @@
+# Entornos y archivos temporales de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Datos adquiridos: no se publican con el código
+capturas/
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*~
+*.bak

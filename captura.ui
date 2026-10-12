@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>640</width><height>420</height></rect></property>
+  <property name="windowTitle"><string>Captura serial | Instrumentación Biomédica</string></property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item><widget class="QPushButton" name="btnCapturar">
+     <property name="text"><string>Capturar</string></property>
+    </widget></item>
+    <item><widget class="QPlainTextEdit" name="txtDatos">
+     <property name="readOnly"><bool>true</bool></property>
+     <property name="placeholderText"><string>Aquí aparecerán los datos de Arduino...</string></property>
+    </widget></item>
+    <item><widget class="QLabel" name="lblEstado">
+     <property name="text"><string>Listo para capturar</string></property>
+     <property name="wordWrap"><bool>true</bool></property>
+    </widget></item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
