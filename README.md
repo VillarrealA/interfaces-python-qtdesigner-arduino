@@ -131,6 +131,6 @@ Tras modificar el formulario, regenerar `ui_captura.py` y versionar tanto el `.u
 ## Documentación
 
 - [Tkinter](https://docs.python.org/3/library/tkinter.html)
-- [Qt Designer](https://doc.qt.io/qt-6/designer-manual.html)
+- [Qt Designer](https://doc.qt.io/qt-6/es/qtdesigner-manual.html)
 - [Conversión de .ui a Python](https://doc.qt.io/qtforpython-6/tutorials/basictutorial/uifiles.html)
 - [pyserial](https://pyserial.readthedocs.io/en/latest/pyserial_api.html)
